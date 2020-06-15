@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import "./mixins/_admin-left.scss";
+
+@include admin-left(admin-left);
+.left{
+  &__font{
+    color: #fff;
+    font-size: 18px;
+    vertical-align: bottom;
+  }
+}
